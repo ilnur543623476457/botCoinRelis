@@ -9,8 +9,8 @@ tg.expand();
 // start fun
 window.addEventListener('load', () => {
 
-    // var photo_user = tg.initDataUnsafe.user.photo_url
-    // document.querySelector('#bl_img').innerHTML = `<img class="img-ak" src="${photo_user}">`
+    var photo_user = tg.initDataUnsafe.user.photo_url
+    document.querySelector('.info_bl_ac').innerHTML = `<img class="img-ak" src="${photo_user}">`
     
     UserStarting()
     test()
