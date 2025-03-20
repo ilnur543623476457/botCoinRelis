@@ -7,11 +7,7 @@ const tg = window.Telegram.WebApp;
 tg.expand();
 
 // start fun
-window.addEventListener('load', () => {
-
-    var photo_user = tg.initDataUnsafe.user.photo_url
-    document.querySelector('.info_bl_ac').innerHTML = `<img class="img-ak" src="${photo_user}">`
-    
+window.addEventListener('load', () => {    
     UserStarting()
     test()
     setTime()
