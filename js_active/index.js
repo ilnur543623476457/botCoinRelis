@@ -34,7 +34,7 @@ setTimeout(() => {
     sub()
     timeBack()
 
-    setTimeOnlineFarmCoin()
+    // setTimeOnlineFarmCoin()
 
     WithAllUserGamer()
     AllWinLat()
