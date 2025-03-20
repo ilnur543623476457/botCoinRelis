@@ -5,6 +5,13 @@ const photo_user = tg.initDataUnsafe.user.photo_url
 var userIdBD = ''
 
 
+alert(
+    user_id,
+    user_name,
+    photo_user
+)
+
+
 // Стартовая функция, вывод инфы юзера от сервера 
 export const UserStarting = () => {
     // console.log(user_id, user_name);
