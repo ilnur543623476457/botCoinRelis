@@ -12,15 +12,19 @@ const photo_user = tg.initDataUnsafe.user.photo_url
 
 
 alert(
-    user_id,
-    user_name,
+    user_id
+)
+alert(
+    user_name
+)
+
+alert(
     photo_user
 )
 
 
-setTimeout(() => {
 
-    
+setTimeout(() => {
     UserStarting()
     test()
     setTime()
@@ -41,7 +45,7 @@ setTimeout(() => {
 
     const button = document.querySelector('.game');
     button.click();
-}, 2000);
+}, 1000);
 
 
 // start fun
