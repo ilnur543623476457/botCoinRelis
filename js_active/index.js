@@ -1,6 +1,6 @@
 import { AllTopGamerTwoGame, UserStarting, NewCoin, RefCode, purchaseBust, TimeFarmCoin, setTimeOnlineFarmCoin, CreateSell, AllSell, AllCreateWithdraw, UserSearch, CreateWithdraw, NewGamer, AllNewGamer, WithAllUserGamer, OverTimeGamer, TopGamerUser, AllWinLat, dobCoin, delCoin, BanUnban, NewGamerTwo, AllNewGamerTwo, WithAllUserGamerTwo, GameOverTwo } from './api.js';
 import { shop_outline, nav_menu } from './anim.js';
-var socket = new WebSocket('wss://103.88.242.241:3050');
+// var socket = new WebSocket('wss://103.88.242.241:3050');
 
 
 const tg = window.Telegram.WebApp;
@@ -26,7 +26,7 @@ document.querySelector('.info_bl_ac').innerHTML = `<img class="img-ak" src="${ph
 
 setTimeout(() => {
     UserStarting()
-    test()
+    // test()
     setTime()
     // UserTop()
     AllSell()
