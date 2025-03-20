@@ -11,7 +11,7 @@ export const UserStarting = () => {
         id_user: user_id,
         userName: user_name
     }
-    fetch('http://localhost:3030/api/user/registrationChek', {
+    fetch('http://103.88.242.241:3030/api/user/registrationChek', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -72,7 +72,7 @@ const banOnOff = () => {
 
 // Топ юзеров
 export const UserTop = () => {
-    fetch('http://localhost:3030/api/user/AllTop', {
+    fetch('http://103.88.242.241:3030/api/user/AllTop', {
         method: 'GET',
         headers: {
             'Content-type': 'application/json'
@@ -112,7 +112,7 @@ export const NewCoin = (CN, CN1) => {
     const data = {
         id_user: user_id,
     }
-    fetch('http://localhost:3030/api/user/newCoinClick', {
+    fetch('http://103.88.242.241:3030/api/user/newCoinClick', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -163,7 +163,7 @@ export const RefCode = (valRefCode) => {
         id_user: user_id,
         valRefCode: valRefCode
     }
-    fetch('http://localhost:3030/api/user/RefCodeUser', {
+    fetch('http://103.88.242.241:3030/api/user/RefCodeUser', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -187,7 +187,7 @@ export const RefUser = (valRefCode) => {
     const data = {
         valRefCode: valRefCode
     }
-    fetch('http://localhost:3030/api/user/RefUser', {
+    fetch('http://103.88.242.241:3030/api/user/RefUser', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -212,7 +212,7 @@ formEm.addEventListener('submit', event => {
     if (formEm.classList[0] == 'VC') {
         const formData = new FormData(formEm)
         const data = Object.fromEntries(formData)
-        fetch('http://localhost:3030/api/user/NewVideoCard', {
+        fetch('http://103.88.242.241:3030/api/user/NewVideoCard', {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json'
@@ -228,7 +228,7 @@ formEm.addEventListener('submit', event => {
     if (formEm.classList[0] == 'RP') {
         const formData = new FormData(formEm)
         const data = Object.fromEntries(formData)
-        fetch('http://localhost:3030/api/user/NewProccesor', {
+        fetch('http://103.88.242.241:3030/api/user/NewProccesor', {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json'
@@ -243,7 +243,7 @@ formEm.addEventListener('submit', event => {
     if (formEm.classList[0] == 'MS') {
         const formData = new FormData(formEm)
         const data = Object.fromEntries(formData)
-        fetch('http://localhost:3030/api/user/NewMouse', {
+        fetch('http://103.88.242.241:3030/api/user/NewMouse', {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json'
@@ -301,7 +301,7 @@ export const TimeFarmCoin = (secOver) => {
       id_user: user_id,
       timeSleep: secOver
     }
-    fetch('http://localhost:3030/api/user/NewCoinClickFarmAFK', {
+    fetch('http://103.88.242.241:3030/api/user/NewCoinClickFarmAFK', {
       method: 'POST',
       headers: {
         'Content-type': 'application/json'
@@ -320,7 +320,7 @@ export const setTimeOnlineFarmCoin = () => {
         const data = {
             id_user: user_id,
         }
-        fetch('http://localhost:3030/api/user/NewCoinClickFarm', {
+        fetch('http://103.88.242.241:3030/api/user/NewCoinClickFarm', {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json'
@@ -342,7 +342,7 @@ export const CreateSell = (sum, curs) => {
         sum: sum,
         curs: curs,
     }
-    fetch('http://localhost:3030/api/user/SellUser', {
+    fetch('http://103.88.242.241:3030/api/user/SellUser', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -358,7 +358,7 @@ export const CreateSell = (sum, curs) => {
 export const AllSell = () => {
     $(".sel").empty()
 
-    fetch('http://localhost:3030/api/user/AllSellUser', {
+    fetch('http://103.88.242.241:3030/api/user/AllSellUser', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -393,7 +393,7 @@ export const CreateWithdraw = (user_name_two, sum) => {
         nameUs2: user_name_two,
         sum: sum,
     }
-    fetch('http://localhost:3030/api/user/WithdrawCoinUser', {
+    fetch('http://103.88.242.241:3030/api/user/WithdrawCoinUser', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -410,7 +410,7 @@ export const CreateWithdraw = (user_name_two, sum) => {
 export const AllCreateWithdraw = () => {
     
 
-    fetch('http://localhost:3030/api/user/AllWithdrawCoinUser', {
+    fetch('http://103.88.242.241:3030/api/user/AllWithdrawCoinUser', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -462,7 +462,7 @@ export const UserSearch = (userName) => {
     const data = {
         user_name: userName,
     }
-    fetch('http://localhost:3030/api/user/AllUser', {
+    fetch('http://103.88.242.241:3030/api/user/AllUser', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -494,7 +494,7 @@ export const NewGamer = (a) => {
         user_name: user_name,
         coinStavca: a,
     }
-    fetch('http://localhost:3030/api/user/NewGamerLat', {
+    fetch('http://103.88.242.241:3030/api/user/NewGamerLat', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -510,7 +510,7 @@ export const NewGamer = (a) => {
 
 // Новый игрок
 export const AllNewGamer = () => {
-    fetch('http://localhost:3030/api/user/AllGamersLat', {
+    fetch('http://103.88.242.241:3030/api/user/AllGamersLat', {
         method: 'GET',
         headers: {
             'Content-type': 'application/json'
@@ -549,7 +549,7 @@ const ChekGamers = () => {
 
 // все игроки
 export const WithAllUserGamer = () => {
-    fetch('http://localhost:3030/api/user/WithAllGamerVse', {
+    fetch('http://103.88.242.241:3030/api/user/WithAllGamerVse', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -577,7 +577,7 @@ export const WithAllUserGamer = () => {
 
 // скртыть игроков после завершения таймера
 export const OverTimeGamer = () => {
-    fetch('http://localhost:3030/api/user/WithAllGamerVseOff', {
+    fetch('http://103.88.242.241:3030/api/user/WithAllGamerVseOff', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -631,7 +631,7 @@ export const TopGamerUser = (name_vinner, coinsum) => {
         name_user: name_vinner,
         coinsum: coinsum
     }
-    fetch('http://localhost:3030/api/user/TopGamer', {
+    fetch('http://103.88.242.241:3030/api/user/TopGamer', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -650,7 +650,7 @@ export const TopGamerUser = (name_vinner, coinsum) => {
 
 // Победители в латереи
 export const AllWinLat = () => {
-    fetch('http://localhost:3030/api/user/AllRTopLat', {
+    fetch('http://103.88.242.241:3030/api/user/AllRTopLat', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -679,7 +679,7 @@ export const dobCoin = (name_user, coin_sum) => {
         coinsum: coin_sum
     }
     // console.log(data);
-    fetch('http://localhost:3030/api/user/DobCoin', {
+    fetch('http://103.88.242.241:3030/api/user/DobCoin', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -699,7 +699,7 @@ export const delCoin = (name_user, coin_sum) => {
         coinsum: coin_sum
     }
     // console.log(data);
-    fetch('http://localhost:3030/api/user/DelCoin', {
+    fetch('http://103.88.242.241:3030/api/user/DelCoin', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -719,7 +719,7 @@ export const BanUnban = (name_user, ban) => {
         valueBan: ban
     }
     // console.log(data);
-    fetch('http://localhost:3030/api/user/BanAkk', {
+    fetch('http://103.88.242.241:3030/api/user/BanAkk', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -746,7 +746,7 @@ export const NewGamerTwo = (a, comand) => {
         comand: comand
     }
     // console.log(data);
-    fetch('http://localhost:3030/api/user/NewGamerLatTwo', {
+    fetch('http://103.88.242.241:3030/api/user/NewGamerLatTwo', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -760,7 +760,7 @@ export const NewGamerTwo = (a, comand) => {
 
 
 export const AllNewGamerTwo = () => {
-    fetch('http://localhost:3030/api/user/AllGamersLatTwo', {
+    fetch('http://103.88.242.241:3030/api/user/AllGamersLatTwo', {
         method: 'GET',
         headers: {
             'Content-type': 'application/json'
@@ -796,7 +796,7 @@ export const AllNewGamerTwo = () => {
 
 // все игроки 2 игра
 export const WithAllUserGamerTwo = () => {
-    fetch('http://localhost:3030/api/user/WithAllGamerVseTwo', {
+    fetch('http://103.88.242.241:3030/api/user/WithAllGamerVseTwo', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -859,7 +859,7 @@ export const WithAllUserGamerTwo = () => {
 
 // все игроки 2 игра
 export const ChekGamersTwo = () => {
-    fetch('http://localhost:3030/api/user/WithAllGamerVseTwo', {
+    fetch('http://103.88.242.241:3030/api/user/WithAllGamerVseTwo', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -915,7 +915,7 @@ export const GameOverTwo = (win, form) => {
         formula: form
     }
     // console.log(data);
-    fetch('http://localhost:3030/api/user/GetWinUser', {
+    fetch('http://103.88.242.241:3030/api/user/GetWinUser', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -931,7 +931,7 @@ export const GameOverTwo = (win, form) => {
 
 // все игроки 2 игра
 export const WinFilter = (comand) => {
-    fetch('http://localhost:3030/api/user/WithAllGamerVseTwo', {
+    fetch('http://103.88.242.241:3030/api/user/WithAllGamerVseTwo', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -992,7 +992,7 @@ export const WinFilter = (comand) => {
 
 // игроки оф
 export const GetWinUserAllOff = () => {
-    fetch('http://localhost:3030/api/user/GetWinUserAllOff', {
+    fetch('http://103.88.242.241:3030/api/user/GetWinUserAllOff', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -1012,7 +1012,7 @@ export const GetWinUserAllOff = () => {
 
 // игроки оф
 export const AllTopGamerTwoGame = () => {
-    fetch('http://localhost:3030/api/user/AllTopGamerTwoGame', {
+    fetch('http://103.88.242.241:3030/api/user/AllTopGamerTwoGame', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -1054,7 +1054,7 @@ export const AllTopGamerTwoGame = () => {
 
 // timer
 export const timeOne = () => {
-    fetch('http://localhost:3030/api/user/WithAllGamerVse', {
+    fetch('http://103.88.242.241:3030/api/user/WithAllGamerVse', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
