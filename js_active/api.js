@@ -43,8 +43,10 @@ export const UserStarting = () => {
     
                 UserTop()    
 
+                setTimeout(() => {
+                    document.querySelector('.info_bl_ac').innerHTML = `<img class="img-ak" src="${photo_user}">`
+                }, 1000);
                 
-                document.querySelector('.info_bl_ac').innerHTML = `<img class="img-ak" src="${photo_user}">`
                 userIdBD = data.id
             } else {
                 banOnOff()
