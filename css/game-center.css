@@ -1,0 +1,151 @@
+.game-center{
+    display: none;
+    position: absolute;
+    background-color: rgba(44, 37, 27, 0);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+}
+
+.sell_block{
+    position: absolute;
+    top: 10px;
+    width: 330px;
+    height: 85%;
+    background-color: rgba(24, 24, 24, 0.661);
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px #d4acff82;
+}
+
+.sell_block_txt{
+    position: relative;
+    color: aliceblue;
+    left: 10px;
+    top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sell_block_set{
+    position: relative;
+    width: fit-content;
+    height: 60px;
+    top: 15px;
+    /* background-color: aliceblue; */
+    display: flex;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.rt{
+    position: relative;
+    width: 100px;
+    height: 100%;
+    /* background-color: aqua; */
+    margin-right: 5px;
+}
+
+.rt_img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 5px;
+    width: 30px;
+    filter: invert(1);
+}
+
+.rt_txt{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+    font-weight: bold;
+    color: aliceblue;
+    width: fit-content;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
+.sell_item{
+    position: absolute;
+    width: 80%;
+    bottom: 0;
+    top: 121px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    overflow-y: auto;
+}
+
+.sell_item_block{
+    position: relative;
+    width: 99%;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.sell_item_block_name{
+    position: absolute;
+    border-bottom: 1px solid white;
+    width: 94%;
+    color: aliceblue;
+    left: 10px;
+    top: 2px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.sell_item_block_name-t1{
+    position: absolute;
+    width: fit-content;
+    color: aliceblue;
+    right: 10px;
+    top: 2px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.txt1{
+    position: absolute;
+    width: fit-content;
+    color: aliceblue;
+    left: 10px;
+    top: 38px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.txt2{
+    position: absolute;
+    width: fit-content;
+    color: aliceblue;
+    left: 10px;
+    top: 65px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.price_sell{
+    position: absolute;
+    color: aliceblue;
+    border-left: 1px solid white;
+    right: 0px;
+    font-size: 40px;
+    padding: 10px;
+    top: 27px;
+}
+
+
+
+
+

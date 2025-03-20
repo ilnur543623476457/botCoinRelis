@@ -1,0 +1,233 @@
+.account-center{
+    display: none;
+    position: absolute;
+    background-color: rgba(44, 37, 27, 0);
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 87%;
+    overflow: auto;
+}
+
+.img-ak{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    border-radius: 100px;
+}
+
+.userName{
+    position: absolute;
+    left: 110px;
+    font-size: 26px;
+    top: 25px;
+    color: aliceblue;
+}
+
+.numCoin{
+    position: absolute;
+    left: 110px;
+    font-size: 20px;
+    top: 70px;
+    color: aliceblue;
+}
+
+.opt_ak_m{
+    position: relative;
+    width: fit-content;
+    height: 80px;
+    display: flex;
+    left: 0;
+    right: 0;
+    margin: 20px auto 0;
+}
+
+.OAM{
+    position: relative;
+    width: 140px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #697ddbc7;
+    box-shadow: 0px 6px 15px #00ddffba;
+}
+
+.windraw{
+    margin-right: 10px;
+}
+
+
+.oam_txt{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: fit-content;
+    color: aliceblue;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.oam_img{
+    position: absolute;
+    width: 30px;
+    top: 50%;
+    transform: translateY(-75%);
+    left: 0;
+    right: 0;
+    margin: auto;
+    filter: invert(1);
+}
+
+.top-user{
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 300px;
+    height: 58%;
+    background-color: #a869dbc7;
+    box-shadow: 0px 6px 15px #00ddffba;
+    border-radius: 5px;
+}
+
+.TP_txt{
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: aliceblue;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 10px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.filter-top{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    filter: invert(1);
+}
+
+.user_top_20{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 95%;
+    bottom: 2px;
+    background-color: rgba(250, 235, 215, 0);
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 20px;
+}
+
+.UsR{
+    position: relative;
+    border-bottom: 1px solid white;
+    margin-bottom: 5px;
+}
+
+.UsR-nick{
+    position: relative;
+    font-size: 15px;
+    color: aliceblue;
+    left: 30px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.UsR-sum-soin{
+    position: relative;
+    font-size: 13px;
+    color: aliceblue;
+    left: 50px;
+    font-weight: bold;
+}
+
+.UsR-coin{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 35px;
+    background-image: url(../img/coin.jpg);
+    background-size: 19px;
+    background-position: center;
+    top: 21px;
+    left: 28px;
+}
+
+
+.с{
+    position: relative;
+    background-color: #697ddbc7;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 290px;
+    height: 183px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 15px #00ddffba;
+}
+
+.number_usR{
+    position: absolute;
+    color: white;
+    font-size: 23px;
+    top: 4px;
+    left: 5px;
+}
+
+.Gone{
+    position: relative;
+    top: 10px;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 8px;
+    left: 10px;
+}
+
+.g{
+    position: relative;
+    width: 75px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.gam_txt{
+    position: absolute;
+    left: 90px;
+    top: 0px;
+    color: aliceblue;
+    font-size: 17px;
+}
+
+.op_gam_txt{
+    position: absolute;
+    left: 90px;
+    top: 28px;
+    color: aliceblue;
+    font-size: 13px;
+    font-weight: bold;
+    width: 190px;
+}
+
+
+.obobl_card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+

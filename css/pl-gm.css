@@ -1,0 +1,248 @@
+.pl_gm{
+    display: none;
+    position: absolute;
+    width: 320px;
+    background-color: #000000d7;
+    top: 95px;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 10px;
+    overflow-y: hidden;
+}
+
+.pl_gm_off{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 25px;
+    filter: invert(1);
+}
+
+.pl_gm_txt{
+    position: relative;
+    width: fit-content;
+    color: #ffffff;
+    left: 10px;
+    margin: 10px 0px;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.pl_gm_pol_m{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #ffffff3b;
+    display: flex;
+    margin: 22px auto;
+}
+
+.pl_gm_pol_m_op{
+    position: relative;
+    width: 160px;
+    height: 50px;
+}
+
+.pl_gm_pol_m_img {
+    position: absolute;
+    width: 40px;
+    filter: invert(1);
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.pl_gm_game_block{
+    position: relative;
+    width: 100%;
+    height: 81%;
+}
+
+.pl_gm_top_block{
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 81%;
+    background-color: aliceblue;
+}
+
+.pl_gm_game_block_txt{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    margin: 10px 0px;
+    font-size: 21px;
+    color: white;
+    font-weight: 800;
+}
+
+.pl_gm_game_block_inp{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 100px;
+    height: 20px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.pl_gm_game_block_inp::placeholder{
+    color: rgba(255, 255, 255, 0.772);
+    font-size: 15px;
+}
+
+.pl_gm_game_block_btn{
+    position: relative;
+    padding: 14px 50px;
+    font-size: 16px;
+    font-weight: 700;
+    background: #8c00ffe3;
+    border: none;
+    border-radius: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin: 25px 0px;
+    color: wheat;
+}
+
+.pl_gm_game_block_info{
+    position: relative;
+    width: 100%;
+    height: 105px;
+    top: -10px;
+}
+
+.pl_gm_game_block_info_txt{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    margin: 2px 0px;
+    font-size: 19px;
+    color: white;
+    font-weight: 800;
+}
+
+.stavka_sum{
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    color: wheat;
+}
+
+.time_over{
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    color: #ffffff;
+}
+
+.user_game{
+    position: absolute;
+    right: 10px;
+    top: 66px;
+    color: rgb(255, 255, 255);
+}
+
+.pl_gm_game_block_user{
+    position: absolute;
+    width: 100%;
+    top: 220px;
+    bottom: 0px;
+    overflow-y: auto;
+}
+
+.user_gamer{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    margin: 10px 0px;
+    top: -10px;
+}
+
+
+.photo_user_gamer{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-color: gray;
+    border-radius: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+.name_user_gamer{
+    position: absolute;
+    font-size: 15px;
+    left: 70px;
+    top: 10px;
+    color: white;
+}
+
+.coin_user_gamer{
+    position: absolute;
+    font-size: 15px;
+    left: 70px;
+    top: 29px;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+.pl_gm_top_block_top{
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 125px;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+
+.pl_gm_top_block_top_user{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 5px 0px;
+}
+
+.pl_gm_top_block_top_user_img{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-color: rgba(128, 128, 128, 0.79);
+    border-radius: 40px;
+    top: 1px;
+    left: 17px;
+}
+
+.pl_gm_top_block_top_user_name{
+    position: absolute;
+    top: 5px;
+    left: 70px;
+    color: white;
+}
+
+.pl_gm_top_block_top_user_coin{
+    position: absolute;
+    top: 27px;
+    left: 70px;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+}

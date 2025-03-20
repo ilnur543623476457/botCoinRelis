@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://telegram.org/js/telegram-web-app.js?56"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.3/lottie.min.js"></script>
+    <script>
+        const tg = window.Telegram.WebApp;
+        tg.expand();
+        // window.location.reload("true")
+    </script>
+    <title>Document</title>
+</head>
+<body>
+<!--     <img src="./img/bac.jpg" class="back_img"> -->
+    
+    <div class="main_window">
+        <!-- главная стр -->
+        <div class="wr_main_win">
+            <div class="check">ВАШ СЧЕТ</div>
+            <div class="number-of-coins">
+                <div class="number">0.000000000</div>
+                <div class="coin"></div>
+            </div>
+            <div class="money_top">
+                <div class="coin_zar"></div>
+                <div class="opt_speed">
+                    <div class="clickspeed cs">
+                        <img class="cl_img" src="./img/cursor_click_regular_icon_203700.svg">
+                        <div class="cl_txt_sp">Скорость клика</div>
+                        <div class="number_sp sp1">0.0000000000</div>
+                    </div>
+                    <div class="miningspeed cs">
+                        <img class="cl_img" src="./img/coding_computer_pc_screen_icon_193866.svg">
+                        <div class="cl_txt_sp">Скорость майнинга</div>
+                        <div class="number_sp sp2">0.0000000000</div>
+                    </div>
+                    <div class="pass"></div>
+
+                </div>
+            </div>
+        </div>
+        <!-- аккаунт стр -->
+        <div class="account-center">
+            <div class="info_bl_ac">
+                <!-- <img class="img-ak" src="./img/2025-03-19 23.28.17.jpg"> -->
+                <div class="userName">User</div>
+                <img class="admin_img" src="./img/admin_user_icon_188317.svg">
+                <div class="numCoin">0.0000000000</div>
+            </div>
+
+
+            <div class="opt_ak_m">
+                <div class="windraw OAM">
+                    <img class="oam_img" src="./img/creditcard_payment_4578.png">
+                    <div class="oam_txt">Продать/Купить</div>
+                </div>
+                <div class="referal OAM">
+                    <img class="oam_img" src="./img/3643747-friend-group-people-peoples-team_113434.svg">
+                    <div class="oam_txt">Рефералы</div>
+                </div>
+            </div>
+
+            <div class="с">
+                <div id="oneG" class="Gone oneG">
+                    <img class="g" src="./img/photo_2025-02-25 13.22.23.jpeg">
+                    <div class="gam_txt">Лотерея</div>
+                    <div class="op_gam_txt">Играй и выигрывай кострокойны в лотерее!</div>
+                </div>
+                <div id="twoG" class="Gone twoG">
+                    <img class="g" src="./img/photo_2025-02-25 13.23.31.jpeg">
+                    <div class="gam_txt">Командная лотерея</div>
+                    <div class="op_gam_txt">Две команды люди и боты сражаются друг с другом</div>
+                </div>
+            </div>
+
+            <div class="top-user">
+                <div class="TP_txt">ТОП</div>
+                <img class="filter-top" src="./img/equalizersoutline_114523.svg">
+                <div id="user_top_20" class="user_top_20">
+                    <div id="https://t.me/Anchous_08" class="UsR">
+                        <div class="number_usR">1</div>
+                        <div class="UsR-nick">User</div>
+                        <div class="UsR-coin"></div>
+                        <div class="UsR-sum-soin">0.0000000000</div>
+                    </div>
+                </div>
+            </div>
+            <div class="pass"></div>
+
+
+
+        </div>
+        <!-- игры / бустеры стр -->
+        <div class="game-center">
+            <div class="sell_block">
+                <div class="sell_block_txt">Магазин</div>
+                <div class="sell_block_set">
+                    <div class="rt">
+                        <img id="VC" class="rt_img" src="./img/fan_icon_137646.svg"></img>
+                        <div class="rt_txt">Видеокарты</div>
+                    </div>
+                    <div class="rt">
+                        <img id="PR" class="rt_img" src="./img/cpu_icon_160215.svg"></img>
+                        <div class="rt_txt">Процессоры</div>
+                    </div>
+                    <div class="rt">
+                        <img id="MS" class="rt_img" src="./img/computermouse_78940.svg"></img>
+                        <div class="rt_txt">Мышки</div>
+                    </div>
+                </div>
+                <div id="sell_item" class="sell_item">
+                    <div class="txt_obh">Магазин</div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="but_menu">
+            <div class="option menu"></div>
+            <div class="coin-main menu"></div>
+            <div class="account menu"></div>
+        </div>
+
+
+
+
+
+
+
+        <div class="admin_center">
+            <img class="admin_center_close" src="./img/4115230-cancel-close-cross-delete_114048.svg">
+            <div id="VC" class="VC pool">
+                <div class="txt">Видеокарты</div>
+                <img id="VC" class="dop" src="./img/4115230-cancel-close-cross-delete_114048.svg">
+            </div>
+            <div id="RP" class="PR pool">
+                <div class="txt">Процессоры</div>
+                <img id="RP" class="dop" src="./img/4115230-cancel-close-cross-delete_114048.svg">
+            </div>
+            <div id="MS" class="MS pool">
+                <div class="txt">Мышки</div>
+                <img id="MS" class="dop" src="./img/4115230-cancel-close-cross-delete_114048.svg">
+            </div>
+
+            <div class="block_key_block">
+                <div class="block_key_block_txt">Выдать / Забрать Coin</div>
+
+                <form>
+                    <input id="block_key_block_inp1" class="user_inp_block_key_block" type="text" placeholder="Ник пользовтеля">
+                    <input id="block_key_block_inp2" class="user_inp_block_key_block" type="number" placeholder="Сумма коинов">
+                    <div class="bkb_btn_obh">
+                        <button id="Dob_coin" class="bkb_btn" type="reset">Выдать</button>
+                        <button id="Del_coin" class="bkb_btn" type="reset">Забрать</button>
+                    </div>
+
+                </form>
+                <div class="block_key_block_txt">Заблокировать / Разблокировать акаунт</div>
+                <form>
+                    <input id="bun_inp" class="user_inp_block_key_block" type="text" placeholder="Ник пользовтеля">
+                    <div class="bkb_btn_obh">
+                        <button id="Ban" class="bkb_btn1" type="reset">Заблокировать</button>
+                        <button id="Unban" class="bkb_btn1" type="reset">Разблокировать</button>
+                    </div>
+                </form>
+
+
+
+            </div>
+        </div>
+
+        <div class="new_plach">
+            <div class="NP_txt">Новая видеокарта</div>
+            <img class="new_plach_close" src="./img/4115230-cancel-close-cross-delete_114048.svg">
+            <form id="form_id"> 
+                <input class="inp" type="text" name="name" placeholder="Название">
+                <input class="inp" type="text" name="bust" placeholder="Буст">
+                <input class="inp" type="text" name="price" placeholder="Цена">
+                <button class="btn_form" type="submit">Создать</button>
+            </form>
+        
+        </div>
+        <div class="no_block">Не достаточно средств</div>
+        <div class="no_block1">Вы уже вводили реф. код</div>
+        <div class="no_block2">Пользователь не найден</div>
+        <div class="no_block3">Нельзя перевести самому себе</div>
+        <div class="no_block4">Мин сумма для перевода 0.000000001</div>
+
+        <!-- Продать купить -->
+        <div class="sel_buy">
+            <div class="txt_nm">Перевести / Продать</div>
+            <img class="close_sel_buy" src="./img/4115230-cancel-close-cross-delete_114048.svg">
+            <div class="btn_SB">
+                <div class="btn_windr">Перевести</div>
+                <div class="btn_lock">Продать</div>
+            </div>
+            <div class="sel">
+                <div class="sel_card">
+                    <div class="user_photo"></div>
+                    <div class="user_n">Test</div>
+                    <div class="prise">
+                        <div class="prise_txt">10002431542</div>
+                        <div class="pr_coin"></div>
+                    </div>
+                    <div class="curs">0.50 coin/руб</div>
+                </div>
+                <div class="sel_card">
+                    <div class="user_photo"></div>
+                    <div class="user_n">Test</div>
+                    <div class="prise">
+                        <div class="prise_txt">10002431542</div>
+                        <div class="pr_coin"></div>
+                    </div>
+                    <div class="curs">0.50 coin/руб</div>
+                </div>
+            </div>
+            <div class="pust"></div>
+
+            <div class="mod_sel">
+                <img class="mod" src="./img/4115230-cancel-close-cross-delete_114048.svg">
+                <div style="position: relative;
+    color: aliceblue;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    margin: 10px auto;
+    width: fit-content;">Заявка на продажу</div>
+                <form>
+                    <div class="in_bl_m-s">
+                        <input id="in_bl_m-s-1" class="inp_mod_sel r" type="text" placeholder="Сумма" autocomplete="off">
+                        <input id="in_bl_m-s-2" class="inp_mod_sel" type="text" placeholder="Курс" autocomplete="off">
+                    </div>
+                    <button class="btn_mod_sel" type="reset">Создать заявку</button>
+                </form>
+
+            </div>
+
+            <div class="translate_sel">
+                <div class="translate_sel_ttx">Перевести</div>
+
+                <img class="trans" src="./img/4115230-cancel-close-cross-delete_114048.svg">
+                <form>
+                    <input class="inp_trns_serch" type="text" placeholder="Введите id, Ник пользователя">
+                    <img class="trns_im_s" src="./img/seo-social-web-network-internet_340_icon-icons.com_61497.svg">
+                    <button type="reset" class="btn_tr_im_s"></button>
+                </form>
+
+
+                <div class="per_history">
+                    <div class="per_history_off">Истории переводов<br>нет</div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <!-- Рефералы -->
+
+        <div class="ref">
+            <img class="ref_close" src="./img/4115230-cancel-close-cross-delete_114048.svg">
+            <div class="ref_txt">Реферальная система</div>
+
+            <div class="block_ref">
+                <div class="ref_coin"></div>
+                <div class="block_ref_txt">
+                    Благодаря вашим друзьям вы сможете получать пассивный доход:<br><br>
+ 
+                    - 1,5% от суммы ставок в Сражениях рефералом<br><br>
+
+                    - 5% от нафармленных KostroCoin’ов рефералом<br><br>
+                </div>
+            </div>
+
+            <div class="ref_user">
+                <div class="ref_user_txt1">Приглашено</div>
+                <div id="ref_user_col" class="ref_user_txt2">0</div>
+            </div>
+
+            <div class="ref_user">
+                <div class="ref_user_txt1">Заработанно</div>
+                <div id="ref_user_coin" class="ref_user_txt2">0.0000000000</div>
+            </div>
+
+
+            <div class="ref_coin_cod">
+                <div class="ref_coin_cod_txt1">Введите код</div>
+                <input id="ref_coin_cod_inp" class="ref_coin_cod_inp" type="text" value="" placeholder="code" autocomplete="off">
+                <img id="ref_btn" src="./img/right_icon-icons.com_61212.svg">
+            </div>
+
+
+            <div class="ref_coin_cod">
+                <div class="ref_coin_cod_txt1">Код для рефералов</div>
+                <div class="ref_coin_cod_txt2">vgc63gqfyh</div>
+            </div>
+        </div>
+
+        <div class="otpravka_coin_page">
+            <form>
+                <input class="otpravka_coin_page_inp" type="text" placeholder="Кол-во монет">
+                <button class="otpravka_coin_page_btn" type="reset">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div id="pl_gm" class="pl_gm">
+            <div class="pl_gm_txt">Лотерея</div>
+            <img class="pl_gm_off" src="./img/4115230-cancel-close-cross-delete_114048.svg">
+            <div class="pl_gm_pol_m">
+                <div class="pl_gm_pol_m_op game">
+                    <img class="pl_gm_pol_m_img" src="./img/play_icon_134504.svg">
+                </div>
+                <div class="pl_gm_pol_m_op top">
+                    <img class="pl_gm_pol_m_img" src="./img/trophy_winner_first_award_cup_champion_icon_141870.svg">
+                </div>
+            </div>
+
+            <div class="pl_gm_game_block">
+                <div class="pl_gm_game_block_txt">Ваша ставка</div>
+                <form>
+                    <input class="pl_gm_game_block_inp" type="number" placeholder="Мин 10">
+                    <button class="pl_gm_game_block_btn" type="reset">Сыграть</button>
+                </form>
+                <div class="pl_gm_game_block_info">
+                    <div class="pl_gm_game_block_info_txt">Общая ставка</div>
+                    <div class="stavka_sum">0</div>
+                    <div class="pl_gm_game_block_info_txt">Осталось</div>
+                    <div class="time_over">1 сек</div>
+                    <div class="pl_gm_game_block_info_txt">Игроков</div>
+                    <div class="user_game">0</div>
+                </div>
+                <div class="pl_gm_game_block_user"></div>
+            </div>
+            <div class="pl_gm_top_block_top"></div>
+            <div class="block_win_game"></div>
+            <div class="block_over_game"></div>
+        </div>
+
+
+
+
+
+
+        <div id="pl_gm_two" class="pl_gm_two">
+            <div class="pl_gm_txt_two">Ком. лотерея</div>
+            <img class="pl_gm_off_two" src="./img/4115230-cancel-close-cross-delete_114048.svg">
+            <div class="pl_gm_pol_m_two">
+                <div class="pl_gm_pol_m_op game">
+                    <img class="pl_gm_pol_m_img" src="./img/play_icon_134504.svg">
+                </div>
+                <div class="pl_gm_pol_m_op top">
+                    <img class="pl_gm_pol_m_img" src="./img/trophy_winner_first_award_cup_champion_icon_141870.svg">
+                </div>
+            </div>
+
+            <div class="pl_gm_game_block">
+ 
+                <div class="pl_gm_game_block_txt">Ваша ставка</div>
+                <form>
+                    <input id="pl_gm_game_block_inp2" class="pl_gm_game_block_inp" type="number" placeholder="Мин 10">
+                    <div class="pl_gm_game_block_bot_user">
+                        <button id="C_User" class="btn_V user" type="reset">Сыграть за команду Люди</button>
+                        <button id="C_Bot" class="btn_V bot" type="reset">Сыграть за команду Боты</button>
+                    </div>
+                </form>
+                <div class="pl_gm_game_block_info">
+                    <div class="pl_gm_game_block_info_txt">Общая ставка</div>
+                    <div id="stavka_sum_two" class="stavka_sum_two">0</div>
+                    <div class="pl_gm_game_block_info_txt">Осталось</div>
+                    <div id="time_over_two" class="time_over_two">1 сек</div>
+                    <div class="pl_gm_game_block_info_txt">Игроков</div>
+                    <div id="user_game_two" class="user_game">0</div>
+                    <div class="pl_gm_game_block_info_txt">Ставка Люди</div>
+                    <div id="stavka_sum_two_user" class="stavka_sum_user">0</div>
+                    <div class="pl_gm_game_block_info_txt">Ставка Боты</div>
+                    <div id="stavka_sum_two_bot" class="stavka_sum_bot">0</div>
+
+                </div>
+                <div class="pl_gm_game_block_users">
+                    <div id="user_gamers" class="gamers">
+                        <div class="gamers_txt">Люди</div>
+                    </div>
+                    <div id="bot_gamers" class="gamers">
+                        <div class="gamers_txt">Боты</div>
+                    </div>
+                </div>
+            </div>
+            <div id="pl_gm_top_block_top_two" class="pl_gm_top_block_top_top"></div>
+            <div class="block_win_game_two"></div>
+            <div class="block_over_game_two"></div>
+        </div>
+
+
+
+    <div class="ban_akk">
+        <div class="ban_akk_block">
+            <div id="anim_ban" class="anim_ban"></div>
+            <div class="ban_akk_txt">
+                Ваш аккаунт забанен
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script type="module" src="./js_active/index.js"></script>
+</body>
+</html>

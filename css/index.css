@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('./money.css');
+@import url('./coin_farm.css');
+@import url('./bottom_menu.css');
+@import url('./account-center.css');
+@import url('./game-center.css');
+@import url('./admin_centre.css');
+@import url('./pl-gm.css');
+@import url('./sb.css');
+@import url('./ref.css');
+@import url('./banAkk.css');
+@import url('./pl-gm_2.css');
+
+
+
+
+.gravitas-one-regular {
+    font-family: "Gravitas One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+:root{
+    --color_text: #ebebeb;
+
+}
+
+::placeholder {
+    color: rgb(18, 18, 18);
+    font-size: 15px;
+  }
+
+body{
+    margin: 0;
+    padding: 0%;
+    overflow: hidden;
+    font-family: Gravitas One, serif;
+    font-style: normal;
+    -ms-overflow-style: none;  /* IE 10+ */
+    scrollbar-width: none; /* Firefox */
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none; /* Стандартный синтаксис */
+}
+
+::-webkit-scrollbar { /* chrome based */
+    width: 0px;  /* ширина scrollbar'a */
+    background: transparent;  /* опционально */
+}
+
+.main_window{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(58, 141, 180);
+    background: linear-gradient(348deg, rgb(94 113 219) 0%, rgb(128 39 39) 50%, rgb(202 140 53) 100%);
+
+}
+
+.back_img{
+    position: absolute;
+    width: 140%;
+    left: -85px;
+    top: -30px;
+}
+
+
+.off_win{
+    display: none;
+}
+
+.on_win{
+    display: block;
+}
+
+.menu_but{
+    filter: invert(0.7);
+}
+
+.pass{
+    position: relative;
+    height: 20px;
+}
+
+.ontapcoin{
+    animation: ontapcoin 0.05s alternate;
+    /* animation-direction: alternate-reverse; */
+}
+
+@keyframes ontapcoin {
+    0%{
+
+    }
+    100%{
+        background-size: 315px;
+    }
+}
+
+.no_block{
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    background-color: red;
+    color: #ebebeb;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    z-index: 1;
+}
+
+.no_block1{
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    background-color: red;
+    color: #ebebeb;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    z-index: 1;
+}
+
+.no_block2{
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    background-color: red;
+    color: #ebebeb;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    z-index: 1;
+}
+
+.no_block3{
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    background-color: red;
+    color: #ebebeb;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    z-index: 1;
+}
+
+.no_block4{
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    background-color: red;
+    color: #ebebeb;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    z-index: 1;
+}
+
+.no_block_on{
+    display: block;
+}
+
+
+.test{
+    position: absolute;
+    z-index: 1;
+    width: 70px;
+    height: 70px;
+    background-color: aqua;
+}
+
+
+
+.block_win_game{
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+}
+
+
+
+.block_over_game{
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+}
+
+
+.block_win_game_two{
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+}
+
+
+
+.block_over_game_two{
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+}

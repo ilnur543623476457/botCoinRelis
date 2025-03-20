@@ -1,0 +1,43 @@
+.ban_akk{
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.401);
+    backdrop-filter: blur(15px);
+}
+
+.ban_akk_block{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    background-color: #44444487;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    box-shadow: 0px 5px 12px black;
+}
+
+.anim_ban{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 85px;
+}
+
+.ban_akk_txt{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    bottom: 100px;
+    font-size: 20px;
+    font-family: sans-serif;
+}

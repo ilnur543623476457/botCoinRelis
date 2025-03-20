@@ -1,0 +1,178 @@
+.pl_gm_two{
+    display: none;
+    position: absolute;
+    width: 320px;
+    background-color: #000000d7;
+    top: 95px;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 10px;
+    overflow-y: hidden;
+}
+
+.pl_gm_off_two{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 25px;
+    filter: invert(1);
+}
+
+.pl_gm_txt_two{
+    position: relative;
+    width: fit-content;
+    color: #ffffff;
+    left: 10px;
+    margin: 10px 0px;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.pl_gm_pol_m_two{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #ffffff3b;
+    display: flex;
+    margin: 22px auto;
+}
+
+.pl_gm_game_block_bot_user{
+    position: relative;
+    width: 100%;
+    height: 43px;
+    /* background-color: aqua; */
+    margin: 25px auto;
+    top: -1px;
+    display: flex;
+}
+
+.btn_V{
+    position: relative;
+    width: 120px;
+    padding: 10px 0px;
+    background-color: rgb(89, 0, 255);
+    margin-right: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: none;
+    color: #ffffff;
+}
+
+.pl_gm_game_block_users{
+    position: absolute;
+    width: 100%;
+    top: 265px;
+    bottom: 0px;
+    overflow-y: auto;
+    display: flex;
+}
+
+.gamers{
+    position: relative;
+    width: 50%;
+    bottom: 0;
+}
+
+.gamers_txt{
+    position: relative;
+    color: white;
+    width: fit-content;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.gamers_block{
+    position: relative;
+    width: 95px;
+    height: 65px;
+    left: 0;
+    right: 0;
+    margin: 10px auto;
+}
+
+.gamers_block img {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(125, 125, 125);
+    border-radius: 40px;
+}
+
+.gamers_block_txt_coin{
+    position: absolute;
+    top: 15px;
+    left: 56px;
+    text-align: center;
+    color: rgb(255, 208, 0);
+    font-size: 16px;
+}
+
+.stavka_sum_user{
+    position: absolute;
+    right: 10px;
+    top: 91px;
+    color: wheat;
+}
+
+.stavka_sum_bot{
+    position: absolute;
+    right: 10px;
+    top: 117px;
+    color: wheat;
+}
+
+.time_over_two {
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    color: #ffffff;
+}
+
+
+.stavka_sum_two {
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    color: wheat;
+}
+
+.pl_gm_top_block_top_top {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 125px;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+.top_b_block{
+    position: relative;
+    margin: 10px auto;
+    width: 85%;
+    height: 50px;
+    background-color: violet;
+    border-radius: 10px;
+
+}
+
+.top_b_block_txt{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 11px;
+}
