@@ -1,6 +1,7 @@
 const tg = window.Telegram.WebApp;
 const user_id = tg.initDataUnsafe.user.id
 const user_name = tg.initDataUnsafe.user.username
+const photo_user = tg.initDataUnsafe.user.photo_url
 var userIdBD = ''
 
 
@@ -41,6 +42,9 @@ export const UserStarting = () => {
                 // $(".user_top_20").empty()
     
                 UserTop()    
+
+                
+                document.querySelector('.info_bl_ac').innerHTML = `<img class="img-ak" src="${photo_user}">`
                 userIdBD = data.id
             } else {
                 banOnOff()
