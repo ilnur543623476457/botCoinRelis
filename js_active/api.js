@@ -41,10 +41,6 @@ export const UserStarting = () => {
                 // $(".user_top_20").empty()
     
                 UserTop()    
-
-                setTimeout(() => {
-                    document.querySelector('.info_bl_ac').innerHTML = `<img class="img-ak" src="${photo_user}">`
-                }, 1000);
                 
                 userIdBD = data.id
             } else {
