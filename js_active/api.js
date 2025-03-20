@@ -1,5 +1,5 @@
 const tg = window.Telegram.WebApp;
-const user_id = tg.initDataUnsafe.query_id
+const user_id = tg.initDataUnsafe.user.query_id
 const user_name = tg.initDataUnsafe.user.username
 var userIdBD = ''
 
