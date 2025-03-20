@@ -22,7 +22,7 @@ alert(
     photo_user
 )
 
-
+document.querySelector('.info_bl_ac').innerHTML = `<img class="img-ak" src="${photo_user}">`
 
 setTimeout(() => {
     UserStarting()
