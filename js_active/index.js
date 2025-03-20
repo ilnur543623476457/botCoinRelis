@@ -6,17 +6,20 @@ var socket = new WebSocket('ws://localhost:3050');
 const tg = window.Telegram.WebApp;
 tg.expand();
 
+const user_id = tg.initDataUnsafe.user.id
+const user_name = tg.initDataUnsafe.user.username
+const photo_user = tg.initDataUnsafe.user.photo_url
+
+
+alert(
+    user_id,
+    user_name,
+    photo_user
+)
+
+
 setTimeout(() => {
-    const user_id = tg.initDataUnsafe.user.id
-    const user_name = tg.initDataUnsafe.user.username
-    const photo_user = tg.initDataUnsafe.user.photo_url
-    
-    
-    alert(
-        user_id,
-        user_name,
-        photo_user
-    )
+
     
     UserStarting()
     test()
