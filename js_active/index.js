@@ -6,9 +6,7 @@ var socket = new WebSocket('ws://localhost:3050');
 const tg = window.Telegram.WebApp;
 tg.expand();
 
-// start fun
-window.addEventListener('load', () => {    
-
+setTimeout(() => {
     const user_id = tg.initDataUnsafe.user.id
     const user_name = tg.initDataUnsafe.user.username
     const photo_user = tg.initDataUnsafe.user.photo_url
@@ -40,11 +38,48 @@ window.addEventListener('load', () => {
 
     const button = document.querySelector('.game');
     button.click();
+}, 2000);
+
+
+// start fun
+// window.addEventListener('load', () => {    
+
+//     const user_id = tg.initDataUnsafe.user.id
+//     const user_name = tg.initDataUnsafe.user.username
+//     const photo_user = tg.initDataUnsafe.user.photo_url
+    
+    
+//     alert(
+//         user_id,
+//         user_name,
+//         photo_user
+//     )
+    
+//     UserStarting()
+//     test()
+//     setTime()
+//     // UserTop()
+//     AllSell()
+//     AllCreateWithdraw()
+//     sub()
+//     timeBack()
+
+//     setTimeOnlineFarmCoin()
+
+//     WithAllUserGamer()
+//     AllWinLat()
+//     WithAllUserGamerTwo()
+
+//     timeBackTwo()
+//     AllTopGamerTwoGame()
+
+//     const button = document.querySelector('.game');
+//     button.click();
 
 
 
 
-})
+// })
 
 
 
