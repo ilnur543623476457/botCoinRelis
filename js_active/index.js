@@ -21,7 +21,7 @@ window.addEventListener('load', () => {
     sub()
     timeBack()
 
-    // setTimeOnlineFarmCoin()
+    setTimeOnlineFarmCoin()
 
     WithAllUserGamer()
     AllWinLat()
